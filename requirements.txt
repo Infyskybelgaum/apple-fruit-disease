@@ -39,8 +39,7 @@ scipy==1.4.1
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
 tensorboard==2.1.1
 tensorboard-plugin-wit==1.7.0
-tensorflow @ file:///D:/bld/tensorflow_1594833538462/work/tensorflow-1.14.0-cp37-cp37m-win_amd64.whl
-tensorflow-estimator==2.1.0
+tensorflow==1.14.0
 termcolor==1.1.0
 typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
 urllib3==1.26.2
