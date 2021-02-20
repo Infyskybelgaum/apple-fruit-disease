@@ -27,9 +27,9 @@ def pred_cot_dieas(cott_plant):
   pred = np.argmax(result) # get the index of max value
  
   if pred == 0:
-    return "Diseased Fruit", '/disease_plant.html' # if index 0 burned leaf
+    return "Diseased Fruit", 'disease_plant.html' # if index 0 burned leaf
   elif pred == 1:
-      return 'Healthy Fruit', '/healthy_plant_leaf.html' # # if index 1
+      return 'Healthy Fruit', 'healthy_plant_leaf.html' # # if index 1
   elif pred == 2:
       return 'Diseased Fruit', 'disease_plant.html'  # if index 2  fresh leaf
   else:
