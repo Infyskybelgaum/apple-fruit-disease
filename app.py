@@ -65,6 +65,6 @@ def predict():
      
 # For local system &amp; cloud
 if __name__ == "__main__":
-    #app.run(threaded=False)
-     app.debug = True
-     app.run()
+    app.run(threaded=False)
+    # app.debug = True
+     #app.run()
