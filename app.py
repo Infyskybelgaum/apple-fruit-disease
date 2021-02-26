@@ -55,7 +55,7 @@ def predict():
         filename = file.filename        
         print("@@ Input posted = ", filename)
          
-        file_path = os.path.join('static/user uploaded\', filename)
+        file_path = os.path.join('static/user uploaded', filename)
         file.save(file_path)
  
         print("@@ Predicting class......")
