@@ -48,14 +48,14 @@ def home():
      
   
 # get input image from client then predict class and render respective .html page for solution
-@app.route("/predict/", methods = ['POST'])
+@app.route("/predict", methods = ['POST'])
 def predict():
      if request.method == 'POST':
         file = request.files['image'] # fet input
         filename = file.filename        
         print("@@ Input posted = ", filename)
          
-        file_path = os.path.join('static/user uploaded', filename)
+        file_path = os.path.join('static/user uploaded/', filename)
         file.save(file_path)
  
         print("@@ Predicting class......")
